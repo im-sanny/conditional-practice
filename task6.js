@@ -12,7 +12,7 @@ var students= false;
 
 if(age < 10){
     console.log('free ride for children')
-}else if(students){
+}else if(students == true){
     // 50% discount
    var discount =ticketFare * 50 / 100;
    payAmount =ticketFare - discount;

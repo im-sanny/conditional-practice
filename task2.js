@@ -17,7 +17,7 @@ let height=1.70;
 let BMI = weight  / (height ** 2 )
 console.log('your BMI is =', BMI.toFixed(2));
 
-if(BMI < 18.5){
+if(BMI >= 18.5){
     console.log('you are underweight')
 }
 else if(BMI >= 18.5 && BMI <=24.9) {
@@ -30,7 +30,7 @@ else if(BMI >= 18.5 && BMI <=24.9) {
         console.log('you are obese')
     } 
 } 
-else(BMI >= 18);{
+else{
     console.log('please eat enough and take healthy food at time')
 }
 
