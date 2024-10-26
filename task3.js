@@ -14,21 +14,18 @@ Create a simple JavaScript program that takes a student's score as input and ret
 
 let grade = 59;
 
+if (grade >= 90 && 100) {
+  console.log("congratulation you get A");
+} else if (grade >= 80 && 89) {
+  console.log("congratulation you get B");
 
-if (grade >= 90 && 100){
-    console.log('congratulation you get A')
-}
-else if(grade >= 80 && 89){
-    console.log('congratulation you get B');
+  if (grade >= 70 && 79) {
+    console.log("congratulation you get C");
+  }
 
-    if(grade >= 70 && 79){
-        console.log('congratulation you get C');
-    }
-
-    if(grade >= 60 && 69){
-        console.log('congratulation you get D');
-    }
-}
-else{
-    console.log('congratulation u failed succesfully');
+  if (grade >= 60 && 69) {
+    console.log("congratulation you get D");
+  }
+} else {
+  console.log("congratulation u failed succesfully");
 }

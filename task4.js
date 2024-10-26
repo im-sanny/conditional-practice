@@ -13,20 +13,16 @@ use nested if-else-if-else
 let myResult = 80;
 let friendsResult = 80;
 
+if ((friendsResult) => 80) {
+  console.log("Go for lunch.");
+} else if (friendsResult >= 60) {
+  console.log("Good luck next time.");
 
-    if (friendsResult => 80) {
-        console.log('Go for lunch.');
-    } 
-    else if (friendsResult >= 60) {
-        console.log('Good luck next time.');
-
-        if (friendsResult >= 40) {
-            console.log('Keep your friends message unseen.');
-        } 
-        else {
-            console.log('Block your friend.');
-        }
-    }
- else {
-    console.log('Go home, sleep, and act sad.');
+  if (friendsResult >= 40) {
+    console.log("Keep your friends message unseen.");
+  } else {
+    console.log("Block your friend.");
+  }
+} else {
+  console.log("Go home, sleep, and act sad.");
 }
